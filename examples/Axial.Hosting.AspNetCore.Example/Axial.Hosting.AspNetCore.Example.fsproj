@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
     <IsPackable>false</IsPackable>
-    <RootNamespace>Axial.Api</RootNamespace>
+    <RootNamespace>Axial.Hosting.AspNetCore.Example</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

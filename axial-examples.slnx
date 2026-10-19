@@ -4,4 +4,7 @@
     <Project Path="examples/Axial.Hosting.AspNetCore.Example/Axial.Hosting.AspNetCore.Example.fsproj" />
     <Project Path="examples/Axial.Hosting.GenHttp.Example/Axial.Hosting.GenHttp.Example.fsproj" />
   </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Axial.ReferenceApp.Tests/Axial.ReferenceApp.Tests.fsproj" />
+  </Folder>
 </Solution>

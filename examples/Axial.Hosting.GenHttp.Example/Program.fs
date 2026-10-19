@@ -1,11 +1,11 @@
-/// The GenHTTP twin of examples/Axial.Api: the same schema-driven boundary contract served by a
+/// The GenHTTP twin of examples/Axial.Hosting.AspNetCore.Example: the same schema-driven boundary contract served by a
 /// different host. One schema declaration drives request parsing, problem-details 400s, the
 /// compiled response codec, and the published OpenAPI document — and none of that code changes
 /// when the host is GenHTTP instead of ASP.NET Core.
 ///
-/// Run it directly (`dotnet run --project examples/Axial.Api.GenHttp/Axial.Api.GenHttp.fsproj`)
+/// Run it directly (`dotnet run --project examples/Axial.Hosting.GenHttp.Example/Axial.Hosting.GenHttp.Example.fsproj`)
 /// or run the self-contained smoke pass with `AXIAL_EXAMPLE=smoke`.
-module Axial.Api.GenHttp.Program
+module Axial.Hosting.GenHttp.Example.Program
 
 open System
 open System.Net
@@ -22,7 +22,7 @@ open Reified.Schema.Http
 open Axial.Hosting.GenHttp
 
 // ---------------------------------------------------------------------------
-// The declaration: identical in spirit to examples/Axial.Api. Host-neutral.
+// The declaration: identical in spirit to examples/Axial.Hosting.AspNetCore.Example. Host-neutral.
 // ---------------------------------------------------------------------------
 
 type Signup = { Name: string; Email: string; Age: int }

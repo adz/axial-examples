@@ -6,9 +6,9 @@
 /// - `GET /signup` renders an HTML form from the schema's inspection metadata, and `POST /signup` redisplays the
 ///   submitted values next to their errors.
 ///
-/// Run it directly (`dotnet run --project examples/Axial.Api/Axial.Api.fsproj`) and browse to /signup, or run the
+/// Run it directly (`dotnet run --project examples/Axial.Hosting.AspNetCore.Example/Axial.Hosting.AspNetCore.Example.fsproj`) and browse to /signup, or run the
 /// self-contained smoke pass with `AXIAL_EXAMPLE=smoke`, which is what CI and the docs build execute.
-module Axial.Api.Program
+module Axial.Hosting.AspNetCore.Example.Program
 
 open Reified
 open System
