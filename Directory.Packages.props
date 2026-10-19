@@ -1,0 +1,25 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="Axial" Version="0.11.0" />
+    <PackageVersion Include="Axial.FileSystem" Version="0.11.0" />
+    <PackageVersion Include="Axial.Hosting" Version="0.11.0" />
+    <PackageVersion Include="Axial.Hosting.AspNetCore" Version="0.11.0" />
+    <PackageVersion Include="Axial.Hosting.GenHttp" Version="0.11.0" />
+    <PackageVersion Include="Axial.PlatformService" Version="0.11.0" />
+    <PackageVersion Include="Axial.Telemetry" Version="0.11.0" />
+    <PackageVersion Include="GenHTTP.Core" Version="10.5.3" />
+    <PackageVersion Include="GenHTTP.Modules.Functional" Version="10.5.3" />
+    <PackageVersion Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="1.14.0" />
+    <PackageVersion Include="OpenTelemetry.Extensions.Hosting" Version="1.14.0" />
+    <PackageVersion Include="OpenTelemetry.Instrumentation.AspNetCore" Version="1.14.0" />
+    <PackageVersion Include="OpenTelemetry.Instrumentation.Http" Version="1.14.0" />
+    <PackageVersion Include="OpenTelemetry.Instrumentation.Runtime" Version="1.14.0" />
+    <PackageVersion Include="Reified" Version="0.11.0" />
+    <PackageVersion Include="Reified.Data" Version="0.11.0" />
+    <PackageVersion Include="Reified.Schema" Version="0.11.0" />
+    <PackageVersion Include="Reified.Schema.Http" Version="0.11.0" />
+  </ItemGroup>
+</Project>
